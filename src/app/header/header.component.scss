@@ -1,0 +1,39 @@
+.navbar.header{
+    border-radius: 0px;
+    border: 3px solid #0f80e0;
+    height: 65px;
+    margin-bottom: 0px;
+}
+.header .navbar-brand {
+    padding: 7px 15px;
+}
+.header .navbar-brand img {
+  //  width: 100px;
+}
+.sub-header{
+    border-radius: 0px;
+    border: 1px solid #0070b917;
+    height: 55px;
+    background: #0070b917;
+}
+.sub-header p{
+    line-height: 55px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 125px;
+}
+.navbar-nav>li.last>a{
+    border-left: 1px solid #80808052;
+    margin-top: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.navbar-nav>li.last>a img{
+    width: 40px;
+}
+.navbar-nav>li.last{
+    margin-left: 15px;
+}

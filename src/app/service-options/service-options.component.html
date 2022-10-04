@@ -1,0 +1,64 @@
+<div class="col-sm-12 top_box">
+    <div class="col-sm-12">
+        <b>Service Options</b>
+    </div>
+    
+    <div class="col-sm-12">
+       <app-stepper></app-stepper>
+    </div>
+</div>
+
+
+
+<div class="col-sm-12">
+    <p class="bold">Select how you would like your product to be serviced</p>
+    <div class="col-sm-12 gray_box">
+        <img src="assets/imgs/map.PNG"/>
+        <div class="col-sm-11 right_text p0 pR20">
+          <span class="display_block">option(s) are for your product located at:</span> 
+          <b>1155 Ponce Deleon Long address name Ave. Atlanta GA, 12345</b>
+          <hr>       
+        </div>
+        <div class="col-sm-12 pL45"> Not your products location? <a href="#">Enter a new address</a></div>
+    </div>
+    <div class="col-sm-12 p0">
+        <div class="col-sm-6 pL0 pR0">
+            <div class="col-sm-12 box">
+                <p> <img src="assets/imgs/mail.PNG" /> <span class="bold"> Mail In Repair</span> </p>
+                <p class="text_style">If your claim is approved, we will send you a shipping
+                    label so you can send us your defective device for repair.
+                </p>
+                <p>
+                    <span class="bold">Deductive:</span>
+                    <span class="right_text">$89.00</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-6 pR0">
+            <div class="col-sm-12 box">
+                <p> <img src="assets/imgs/store.PNG" /> <span class="bold">In Store Repair</span>
+                </p>
+                <p class="text_style mB20">You will be given a choice of which repair facility to take your device.
+                </p>
+                <p>
+                    <span class="bold">Deductive:</span>
+                    <span class="right_text">$89.00</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 p0 mT20">
+        <div class="col-sm-6 box">
+            <p> <img src="assets/imgs/payments.PNG" /> <span class="bold">Reimbursement</span></p>
+            <p class="text_style mB30"> We'll Reimburse you quickly and convenently.</p>
+        </div>
+    </div>
+    <div class="col-sm-12 p0 mT30">
+        <div class="col-sm-6 p0">
+            <button type="button" class="btn btn-back pL20 pR20" (click)="step2_back()">Back</button>
+        </div>
+        <div class="col-sm-6 p0">
+            <button type="button" class="btn btn-primary right_text pL20 pR20" (click)="step2_next()">Next</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="col-sm-12 top_box">
+    <div class="col-sm-12">
+        <b>Service Fullfillment</b>
+    </div>
+    
+    <div class="col-sm-12">
+       <app-stepper></app-stepper>
+    </div>
+</div>
+
+<div class="col-sm-12">
+    <p class="bold">Mail In Repair</p>
+    <p class="text_style">Once your device is repaired it will be shipped to the addressed provided below via <a
+            href="#">standard
+            shipping</a>(1 bussiness).</p>
+    <p class="mT20">
+        <label class="radio-inline mR20">
+            <input type="radio" name="possession" checked>Same as policy
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="possession">New Address
+        </label>
+    </p>
+    <p class="width_133">
+        <b class="block">Streve Smith</b>
+        <span class="text_style">
+            123 Man street
+            Addant, Geredo 30031
+            United States
+            strve.smith@gnail.com
+        </span>
+    </p>
+</div>
+<div class="col-sm-12 mT20">
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-back" (click)="step3_back()">Back</button>
+    </div>
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-primary right_text" (click)="step3_next()">Next</button>
+    </div>
+</div>

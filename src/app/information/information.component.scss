@@ -1,0 +1,82 @@
+.font13{
+    font-size: 13px;
+}
+.gray{
+    color: gray;
+}
+
+.font15{
+    font-size: 15px;
+}
+.right p{
+    float:right;
+}
+.mT30{
+    margin-top: 30px;
+}
+.mT15{
+    margin-top: 15px; 
+}
+.mB10{
+    margin-bottom: 10px; 
+}
+.p0{
+    padding: 0;
+}
+hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.bold{
+    font-weight: bold;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    color: gray;
+}
+select, input#price,input#date {
+    width: 315px;
+    border: 2px solid #8080803d;
+    height: 25px;
+    border-radius: 4px;
+    color: gray;
+    font-size: 13px;
+}
+
+textarea {
+    width: 315px;
+    border: 2px solid #8080803d;
+    border-radius: 4px;
+    font-size: 13px;
+    color: gray;
+}
+.btn-back{
+    background: white;
+    color: blue;
+    border: 2px solid blue;
+}
+.right_text {
+    float:right;
+}
+
+.mT20{
+    margin-top: 20px;
+}
+.mL10{
+    margin-left: 10px;
+}
+.top_box{
+    border: 1px solid rgba(197, 187, 187, 0.1294117647);
+    /* padding: 0; */
+    background: rgba(197, 187, 187, 0.1294117647);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}

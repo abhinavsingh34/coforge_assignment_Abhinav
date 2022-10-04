@@ -1,0 +1,95 @@
+<div class="col-sm-12 mT20">
+    <div class="col-sm-12">
+        <div class="col-sm-6 p0 font16 bold"><span>Claim Pre-Qualification</span></div>
+        <div class="col-sm-6 p0 claims right">
+            <p> <a href="#"><span class="glyphicon glyphicon-th-list"></span><span class="mL10">Claims History &
+                        Status</span> </a></p>
+        </div>
+    </div>
+
+    <div class="col-sm-12">
+        <hr>
+        <p>To get started with the claim process, please answer the following questions.</p>
+        <p class="bold">Do you still have possession of the device?</p>
+        <p>
+            <label class="radio-inline">
+                <input type="radio" name="possession" checked>Yes, I have the device.
+            </label><br>
+            <label class="radio-inline">
+                <input type="radio" name="possession">No, I do not have the device
+            </label>
+        </p>
+        <hr>
+        <p class="bold">Is your device damaged in some way?</p>
+        <p>
+            <label class="radio-inline">
+                <input type="radio" name="damaged" checked>Yes, I have the device.
+            </label><br>
+            <label class="radio-inline">
+                <input type="radio" name="damaged">No, I do not have the device
+            </label>
+        </p>
+        <hr>
+    </div>
+    <div class="col-sm-12">
+        <p>Confirm the device Category, Brand and Model or select this information below.</p>
+        <p>
+            <label for="device"> Device Type</label><br>
+            <select name="device" id="device">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </p>
+        <p>
+            <label for="brand">Brand</label><br>
+            <select name="brand" id="brand">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </p>
+        <p>
+            <label for="model">Model</label><br>
+            <select name="model" id="model">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </p>
+        <p>
+            <label for="nickname">Device Nickname</label><br>
+            <select name="nickname" id="nickname">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </p>
+        <p>
+            <label for="serial">Serial Number(Optional)</label><br>
+            <select name="serial" id="serial">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </p>
+        <p>
+            <label for="price">Purchase Price.$</label><br>
+            <input type="text" id="price" name="price">
+        </p>
+        <p>
+            <label for="date"> Purchase Date</label><br>
+            <input type="date" id="date" name="date">
+        </p>
+        <p class="font13 gray">Upon completion you'll be taken to our Assurant claims site.</p>
+
+    </div>
+    <div class="col-sm-12 centre">
+        <button type="button" class="btn btn-primary start_claim" (click)="step_claim()">Start A Claim</button>
+    </div>
+</div>

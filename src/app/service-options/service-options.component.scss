@@ -1,0 +1,123 @@
+.box{
+    border: 2px solid #8080804a;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mT30{
+    margin-top: 30px;
+}
+.p0{
+    padding: 0;
+}
+.claims{
+    color: #0000ff8f;
+    font-weight: bold;
+    font-size: 13px;
+}
+hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.bold{
+    font-weight: bold;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    color: gray;
+}
+select, input#price,input#date {
+    width: 315px;
+    border: 2px solid #8080803d;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: gray;
+}
+.font13{
+    font-size: 13px;
+}
+.gray{
+    color: gray;
+}
+.start_claim{
+    width: 230px;
+    border-radius: 25px;
+    margin-left: 20%;
+}
+
+.font15{
+    font-size: 15px;
+}
+.right p{
+    float:right;
+}
+
+.right_text {
+    float:right;
+}
+.text_style{
+    font-size: 13px;
+    color: gray;
+}
+.btn-back{
+    background: white;
+    color: blue;
+    border: 2px solid blue;
+}
+.gray_box{
+    padding: 0;
+    border: 1px solid #f0f8ff96;
+    height: 100px;
+    border-radius: 7px;
+    background: #f0f8ff96;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.display_block{
+    display: block;
+}
+.pR20{
+    padding-right: 20px;
+}
+.pL45{
+    padding-left: 45px;
+}
+.pL0{
+    padding-left: 0;
+}
+
+.pR0{
+    padding-right: 0;
+}
+.mT20{
+    margin-top: 20px;
+}
+.mB20{
+    margin-bottom: 20px;
+}
+.mB30{
+    margin-bottom: 30px;
+}
+.mT15{
+    margin-top: 15px; 
+}
+.mB10{
+    margin-bottom: 10px; 
+}
+.top_box{
+    border: 1px solid rgba(197, 187, 187, 0.1294117647);
+    /* padding: 0; */
+    background: rgba(197, 187, 187, 0.1294117647);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}

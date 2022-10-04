@@ -1,0 +1,48 @@
+ <div class="col-sm-7 left_box">
+        <app-information *ngIf="step1" (messageEvent_step1_next)="receive_step1_next($event)"></app-information>
+        <app-service-options *ngIf="step2" (messageEvent_step2_next)="receive_step2_next($event)"
+            (messageEvent_step2_back)="receive_step2_back($event)"></app-service-options>
+        <app-service-fulfillment *ngIf="step3" (messageEvent_step3_next)="receive_step3_next($event)"
+            (messageEvent_step3_back)="receive_step3_back($event)"></app-service-fulfillment>
+        <app-summary *ngIf="step4" (messageEvent_step4_next)="receive_step4_next($event)"
+            (messageEvent_step4_back)="receive_step4_back($event)"></app-summary>
+        <app-claim-details *ngIf="step5"></app-claim-details>
+    </div>
+    <div class="col-sm-4 right_box">
+            <div class="col-sm-12">
+                <span class="shopping display"><img src="assets/imgs/shopping.png" /></span>
+                <span class="display mL20"><b>Diane's Mackbook</b> <br> <span class=""> MacBook Pro</span> </span>
+            </div>
+            <div class="col-sm-12 bottom_border text mT20">
+                <div class="col-sm-6">
+                    <span>Policy Number</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="float_right">77015520206</span>
+                </div>
+            </div>
+            <div class="col-sm-12 bottom_border text">
+                <div class="col-sm-6">
+                    <span>Serial Number</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="float_right">123456789123</span>
+                </div>
+            </div>
+            <div class="col-sm-12 bottom_border text">
+                <div class="col-sm-6">
+                    <span>Policy start date</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="float_right">10/03/2019</span>
+                </div>
+            </div>
+            <div class="col-sm-12 bottom_border text">
+                <div class="col-sm-6">
+                    <span>Policy End date</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="float_right">20/03/2019</span>
+                </div>
+            </div>
+    </div>

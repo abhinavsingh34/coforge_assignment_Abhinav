@@ -1,0 +1,46 @@
+<div class="col-sm-12 top_box">
+    <div class="col-sm-12">
+        <b>Incident Information</b>
+    </div>
+    <div class="col-sm-12">
+        <app-stepper></app-stepper>
+    </div>
+</div>
+
+
+
+<div class="col-sm-12">
+    <p class="bold"> Please tell us what happened</p>
+    <p>
+        <label for="date">Date of incident</label><br>
+        <input type="date" id="date" name="date">
+    </p>
+    <p>
+        <label for="date">Describe the issue or reason for your request.</label><br>
+        <textarea id="w3review" name="w3review" rows="4"
+            cols="50">They offer free tutorials in all web development technologies.</textarea>
+    </p>
+    <p>
+        <label for="serial">Select the reason for your claim/request</label><br>
+        <select name="serial" id="serial">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+    </p>
+    <p>
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+        <label class="form-check-label mL10" for="defaultCheck1">
+            I agree to the Terms of Use and acknowledge that I have reviewed the Fraud Notice.
+        </label>
+    </p>
+</div>
+    <div class="col-sm-12  p0 mT30">
+        <div class="col-sm-6">
+            <button type="button" class="btn btn-back pL20 pR20" (click)="step_back()">Back</button>
+        </div>
+        <div class="col-sm-6">
+            <button type="button" class="btn btn-primary right_text pL20 pR20" (click)="step1_next()">Next</button>
+        </div>
+    </div>
