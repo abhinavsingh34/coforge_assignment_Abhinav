@@ -8,6 +8,10 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class SummaryComponent implements OnInit {
   @Output() messageEvent_step4_next = new EventEmitter<string>();
   @Output() messageEvent_step4_back = new EventEmitter<string>();
+  steps:any =4;
+  nextPages:string ='Next: Confirmation';
+
+
   constructor() { }
 
   ngOnInit(): void {

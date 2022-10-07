@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 export class InformationComponent implements OnInit {
   @Output() messageEvent_step1_next = new EventEmitter<string>();
   constructor(private router: Router) { }
+  steps:any =1;
+  nextPages:string ='Next: Service Options';
 
   ngOnInit(): void {
   }

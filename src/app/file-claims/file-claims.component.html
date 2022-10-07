@@ -1,4 +1,4 @@
- <div class="col-sm-7 left_box">
+    <div class="col-sm-7 left_box">
         <app-information *ngIf="step1" (messageEvent_step1_next)="receive_step1_next($event)"></app-information>
         <app-service-options *ngIf="step2" (messageEvent_step2_next)="receive_step2_next($event)"
             (messageEvent_step2_back)="receive_step2_back($event)"></app-service-options>

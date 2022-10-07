@@ -8,6 +8,9 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class ServiceFulfillmentComponent implements OnInit {
   @Output() messageEvent_step3_next = new EventEmitter<string>();
   @Output() messageEvent_step3_back = new EventEmitter<string>();
+  steps:any =3;
+  nextPages:string ='Next: Summary';
+
   constructor() { }
 
   ngOnInit(): void {

@@ -8,6 +8,11 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class ServiceOptionsComponent implements OnInit {
   @Output() messageEvent_step2_next = new EventEmitter<string>();
   @Output() messageEvent_step2_back = new EventEmitter<string>();
+
+  steps:any =2;
+  nextPages:string ='Next: Service Fullfillment';
+
+
   constructor() { }
 
   ngOnInit(): void {
